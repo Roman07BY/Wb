@@ -42,46 +42,39 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*  */
 
-.background{
-    /*position: fixed ;*/
+.Travel-Portal{
     top: 0px;
     width: 1440px;
     height: 765px;
-    background: url(../image/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
+    background: url(../image/background.jpg);
 }
 
 .header-menu{
-    position: relative;
-    background: url(../image/Rectangle26.svg);
+    background: url(../image/background_header.jpg);
 }
 
 .fonlogo{
-    position: absolute;
     width: 1440px;
-    height: 98px; 
+    height: 98px;
 }
 .logo{
-    position: absolute;
     width: 30px;
     height: 30px;
     top: 26px;
     left: 120px;
 }
 .namelogo{
-    position: absolute;
     top: 28px;
     left: 154px;
     font-size: 33px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
-.spisok {
-    position: absolute;
+.spisok-menu {
     display: flex;
     justify-content: center;
     top: 35px;
     left: 494px;
     gap: 42px;
-    
 }
 .navigation {
     width: 98px;
@@ -91,7 +84,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     line-height: 21px;
     letter-spacing: 0px;
     text-align: left;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Red Hat Text';
 }
 .but {
@@ -104,7 +97,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     border-radius: 10px;
     font-size: 19px;
     background-color: #0D606F;
-    color: white;
+    color: rgb(0, 0, 0);
     box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: 'Red Hat Text', sans-serif;
