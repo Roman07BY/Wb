@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*  */
 
-.travel-Portal{
+.travel-portal{
     background: url(../image/background.jpg);
     top: 0px;
     width: 1440px;
@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     top: 28px;
     left: 154px;
     font-size: 33px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .logo{
@@ -73,37 +73,39 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .spisok-menu {
+    position: relative;
     display: flex;
-    justify-content: center;
-    top: 35px;
+    bottom: 26px;
     left: 494px;
     gap: 42px;
 }
 .navigation {
     width: 98px;
-    height: 21px;
     font-size: 16px;
-    font-weight: 500;
-    line-height: 21px;
     letter-spacing: 0px;
-    text-align: left;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Red Hat Text';
 }
-.but {
+.button-header{
+    
+}
+.but{
+    padding: 10px, 229px;
+    border-radius: 10px;
+    font-size: 19px;
+    background-color: #0D606F;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Red Hat Text', sans-serif; 
+}
+.head {
     position: absolute;
     width: 103px;
     height: 41px;
     top: 25px;
     left: 1217px;
-    padding: 10px, 229px;
-    border-radius: 10px;
-    font-size: 19px;
-    background-color: #0D606F;
-    color: rgb(0, 0, 0);
-    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-family: 'Red Hat Text', sans-serif;
+   
 }
 .search {
 }
